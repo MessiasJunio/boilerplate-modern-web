@@ -1,3 +1,9 @@
+![ci](https://github.com/messiasjunio/boilerplate-modern-web/workflows/ci/badge.svg)
+
+<p align="center">
+  <img alt="Image of a robot behind a notebook." src="https://raw.githubusercontent.com/MessiasJunio/boilerplate-modern-web/main/public/img/boilerplate-preview.png">
+</p>
+
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -13,13 +19,15 @@ This project uses lot of stuff as:
 - [Husky](https://github.com/typicode/husky)
 
 ## Getting Started
-
-First, run the development server:
+Easy installation:
 
 ```bash
+npx create-next-app --example https://github.com/MessiasJunio/boilerplate-modern-web
+```
+
+First, run the development server:
+```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

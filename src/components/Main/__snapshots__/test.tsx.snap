@@ -2,8 +2,8 @@
 
 exports[`<Main /> should render heading 1`] = `
 .c0 {
-  background-color: #06092b;
-  color: #fff;
+  background-color: #fcedeeff;
+  color: #0e394fff;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -15,46 +15,106 @@ exports[`<Main /> should render heading 1`] = `
 }
 
 .c1 {
-  width: 25rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
 .c2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
 }
 
 .c3 {
-  font-size: 2rem;
-  font-weight: 400;
+  width: min(30rem, 100%);
 }
 
 .c4 {
+  display: flex;
+  gap: 1rem;
   margin-top: 3rem;
-  width: min(30rem, 100%);
+}
+
+.c5 {
+  height: 5rem;
+  width: 5rem;
 }
 
 <main
   class="c0"
 >
-  <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="c1"
-    src="/img/logo.svg"
-  />
   <h1
-    class="c2"
+    class="c1"
   >
-    Advanced React
+    Modern Web
   </h1>
   <h2
-    class="c3"
+    class="c2"
   >
-    TypeScript, ReactJS, NextJS e Styled Components
+    TypeScript, ReactJS, NextJS, Storybook, Styled Components and Jest
   </h2>
   <img
-    alt="Um desenvolvedor de frente para uma tela com código."
-    class="c4"
+    alt="A Robot behind a laptop"
+    class="c3"
     src="/img/hero-illustration.svg"
   />
+  <div
+    class="c4"
+  >
+    <a
+      href="https://www.typescriptlang.org/"
+    >
+      <img
+        alt="A typescript programming language"
+        class="c5"
+        src="/icons/typescript.svg"
+      />
+    </a>
+    <a
+      href="https://react.dev/"
+    >
+      <img
+        alt="React framework"
+        class="c5"
+        src="/icons/react.svg"
+      />
+    </a>
+    <a
+      href="https://nextjs.org/"
+    >
+      <img
+        alt="Next.js framework"
+        class="c5"
+        src="/icons/nextjs.svg"
+      />
+    </a>
+    <a
+      href="https://storybook.js.org/"
+    >
+      <img
+        alt="Storybook a frontend workshop"
+        class="c5"
+        src="/icons/storybook.svg"
+      />
+    </a>
+    <a
+      href="https://styled-components.com/"
+    >
+      <img
+        alt="Styled components CSS-in-JS"
+        class="c5"
+        src="/icons/styled-components.svg"
+      />
+    </a>
+    <a
+      href="https://jestjs.io/"
+    >
+      <img
+        alt="Jest a testing framework"
+        class="c5"
+        src="/icons/jest.svg"
+      />
+    </a>
+  </div>
 </main>
 `;

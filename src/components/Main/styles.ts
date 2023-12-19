@@ -3,8 +3,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background-color: #fcedeeff;
+  color: #0e394fff;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -22,14 +22,26 @@ export const Logo = styled.img`
 
 export const Title = styled.h1`
   font-size: 2.5rem;
+  margin-bottom: 2rem;
 `
 
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 400;
+  margin-bottom: 3rem;
 `
 
 export const Illustration = styled.img`
-  margin-top: 3rem;
   width: min(30rem, 100%);
+`
+
+export const IconBox = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+`
+
+export const Icon = styled.img`
+  height: 5rem;
+  width: 5rem;
 `

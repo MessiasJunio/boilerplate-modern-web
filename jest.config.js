@@ -15,7 +15,7 @@ module.exports = {
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
   },
-  // https://github.com/styled-components/styled-components/issues/4081
+  // https:/'!src/**/stories.tsx',/github.com/styled-components/styled-components/issues/4081
   // v6 of styled-components doesn't inject styles in test environment
   // we should to force it to use the browser version
   moduleNameMapper: {
