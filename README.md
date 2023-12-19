@@ -1,8 +1,8 @@
-![ci](https://github.com/messiasjunio/boilerplate-modern-web/workflows/ci/badge.svg)
-
 <p align="center">
   <img alt="Image of a robot behind a notebook." src="https://raw.githubusercontent.com/MessiasJunio/boilerplate-modern-web/main/public/img/boilerplate-preview.png">
 </p>
+
+![ci](https://github.com/messiasjunio/boilerplate-modern-web/workflows/ci/badge.svg)
 
 ## What is inside?
 
